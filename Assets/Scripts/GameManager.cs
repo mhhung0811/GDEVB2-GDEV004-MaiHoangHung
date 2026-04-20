@@ -2,6 +2,11 @@ using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
+    [SerializeField] public Collider2D WallTop;
+    [SerializeField] public Collider2D WallBottom;
+    [SerializeField] public Collider2D WallLeft;
+    [SerializeField] public Collider2D WallRight;
+    
     private bool _isGameOver;
     void Start()
     {
