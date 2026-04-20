@@ -1,0 +1,4 @@
+repository "VNGGame/VNGGame@18967702665224@cloud"
+  path "/"
+    br "/main"
+    co "/main"
